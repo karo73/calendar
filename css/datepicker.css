@@ -1,0 +1,54 @@
+body > div {
+	display: inline-block;
+	margin: 50px;
+	vertical-align: top;
+}
+
+.datepicker-box {
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	box-shadow: 0 0 15px rgba( 0,0,0,.12 );
+	font-size: 14px;
+	font-family: Helvetica, Arial, Sans-serif;
+	padding: 15px;
+}
+
+.datepicker-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.datepicker-day,
+.datepicker-week {
+	padding: 3px;
+	text-align: center;
+}
+
+.datepicker-day {
+	border: 1px solid #EEEEEE;
+}
+
+.ui-state-active,
+.datepicker-today {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.datepicker-week {
+	padding-bottom: 10px;
+}
+
+.datepicker-year-month {
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.datepicker-prev {
+	float: left;
+}
+
+.datepicker-next {
+	float: right;
+}
